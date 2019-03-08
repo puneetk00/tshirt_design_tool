@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Anita  Semi-square';
+    src: url('AnitaSemi-square.eot');
+    src: url('AnitaSemi-square.eot?#iefix') format('embedded-opentype'),
+        url('AnitaSemi-square.woff2') format('woff2'),
+        url('AnitaSemi-square.woff') format('woff'),
+        url('AnitaSemi-square.ttf') format('truetype'),
+        url('AnitaSemi-square.svg#AnitaSemi-square') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

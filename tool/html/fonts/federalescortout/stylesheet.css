@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Escort Outline';
+    src: url('FederalEscortOutline.eot');
+    src: url('FederalEscortOutline.eot?#iefix') format('embedded-opentype'),
+        url('FederalEscortOutline.woff2') format('woff2'),
+        url('FederalEscortOutline.woff') format('woff'),
+        url('FederalEscortOutline.ttf') format('truetype'),
+        url('FederalEscortOutline.svg#FederalEscortOutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

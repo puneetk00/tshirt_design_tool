@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Carbon Block';
+    src: url('CarbonBlock.eot');
+    src: url('CarbonBlock.eot?#iefix') format('embedded-opentype'),
+        url('CarbonBlock.woff2') format('woff2'),
+        url('CarbonBlock.woff') format('woff'),
+        url('CarbonBlock.ttf') format('truetype'),
+        url('CarbonBlock.svg#CarbonBlock') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

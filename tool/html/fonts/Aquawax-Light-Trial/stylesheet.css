@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Aquawax';
+    src: url('Aquawax-Light.eot');
+    src: url('Aquawax-Light.eot?#iefix') format('embedded-opentype'),
+        url('Aquawax-Light.woff2') format('woff2'),
+        url('Aquawax-Light.woff') format('woff'),
+        url('Aquawax-Light.ttf') format('truetype'),
+        url('Aquawax-Light.svg#Aquawax-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+

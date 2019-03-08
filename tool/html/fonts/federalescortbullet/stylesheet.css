@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Escort Bullet';
+    src: url('FederalEscortBullet.eot');
+    src: url('FederalEscortBullet.eot?#iefix') format('embedded-opentype'),
+        url('FederalEscortBullet.woff2') format('woff2'),
+        url('FederalEscortBullet.woff') format('woff'),
+        url('FederalEscortBullet.ttf') format('truetype'),
+        url('FederalEscortBullet.svg#FederalEscortBullet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('Arial-Black.eot');
+    src: url('Arial-Black.eot?#iefix') format('embedded-opentype'),
+        url('Arial-Black.woff2') format('woff2'),
+        url('Arial-Black.woff') format('woff'),
+        url('Arial-Black.ttf') format('truetype'),
+        url('Arial-Black.svg#Arial-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+

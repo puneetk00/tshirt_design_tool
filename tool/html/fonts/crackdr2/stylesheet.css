@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Crackdown R2 BRK';
+    src: url('CrackdownR2BRK.eot');
+    src: url('CrackdownR2BRK.eot?#iefix') format('embedded-opentype'),
+        url('CrackdownR2BRK.woff2') format('woff2'),
+        url('CrackdownR2BRK.woff') format('woff'),
+        url('CrackdownR2BRK.ttf') format('truetype'),
+        url('CrackdownR2BRK.svg#CrackdownR2BRK') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

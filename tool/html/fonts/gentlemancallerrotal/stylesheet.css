@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gentleman Caller Rotalic';
+    src: url('GentlemanCallerRotalic.eot');
+    src: url('GentlemanCallerRotalic.eot?#iefix') format('embedded-opentype'),
+        url('GentlemanCallerRotalic.woff2') format('woff2'),
+        url('GentlemanCallerRotalic.woff') format('woff'),
+        url('GentlemanCallerRotalic.ttf') format('truetype'),
+        url('GentlemanCallerRotalic.svg#GentlemanCallerRotalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

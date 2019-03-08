@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'BroadwayEvent';
+    src: url('BroadwayEvent.eot');
+    src: url('BroadwayEvent.eot?#iefix') format('embedded-opentype'),
+        url('BroadwayEvent.woff2') format('woff2'),
+        url('BroadwayEvent.woff') format('woff'),
+        url('BroadwayEvent.ttf') format('truetype'),
+        url('BroadwayEvent.svg#BroadwayEvent') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Courier New';
+    src: url('CourierNewPS-BoldItalicMT.eot');
+    src: url('CourierNewPS-BoldItalicMT.eot?#iefix') format('embedded-opentype'),
+        url('CourierNewPS-BoldItalicMT.woff2') format('woff2'),
+        url('CourierNewPS-BoldItalicMT.woff') format('woff'),
+        url('CourierNewPS-BoldItalicMT.ttf') format('truetype'),
+        url('CourierNewPS-BoldItalicMT.svg#CourierNewPS-BoldItalicMT') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+

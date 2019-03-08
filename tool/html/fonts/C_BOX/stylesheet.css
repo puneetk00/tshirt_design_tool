@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ChocolateBox';
+    src: url('ChocolateBox.eot');
+    src: url('ChocolateBox.eot?#iefix') format('embedded-opentype'),
+        url('ChocolateBox.woff2') format('woff2'),
+        url('ChocolateBox.woff') format('woff'),
+        url('ChocolateBox.ttf') format('truetype'),
+        url('ChocolateBox.svg#ChocolateBox') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

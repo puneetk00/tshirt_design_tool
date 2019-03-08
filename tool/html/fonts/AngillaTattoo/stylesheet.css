@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Angilla Tattoo Personal Use';
+    src: url('AngillaTattooPersonalUse.eot');
+    src: url('AngillaTattooPersonalUse.eot?#iefix') format('embedded-opentype'),
+        url('AngillaTattooPersonalUse.woff2') format('woff2'),
+        url('AngillaTattooPersonalUse.woff') format('woff'),
+        url('AngillaTattooPersonalUse.ttf') format('truetype'),
+        url('AngillaTattooPersonalUse.svg#AngillaTattooPersonalUse') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

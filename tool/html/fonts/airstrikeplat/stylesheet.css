@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airstrike Platinum';
+    src: url('AirstrikePlatinum.eot');
+    src: url('AirstrikePlatinum.eot?#iefix') format('embedded-opentype'),
+        url('AirstrikePlatinum.woff2') format('woff2'),
+        url('AirstrikePlatinum.woff') format('woff'),
+        url('AirstrikePlatinum.ttf') format('truetype'),
+        url('AirstrikePlatinum.svg#AirstrikePlatinum') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

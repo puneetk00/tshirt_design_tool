@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Escort Chrome';
+    src: url('FederalEscortChromeItalic.eot');
+    src: url('FederalEscortChromeItalic.eot?#iefix') format('embedded-opentype'),
+        url('FederalEscortChromeItalic.woff2') format('woff2'),
+        url('FederalEscortChromeItalic.woff') format('woff'),
+        url('FederalEscortChromeItalic.ttf') format('truetype'),
+        url('FederalEscortChromeItalic.svg#FederalEscortChromeItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

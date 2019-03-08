@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Escort Scanlines';
+    src: url('FederalEscortScanlines.eot');
+    src: url('FederalEscortScanlines.eot?#iefix') format('embedded-opentype'),
+        url('FederalEscortScanlines.woff2') format('woff2'),
+        url('FederalEscortScanlines.woff') format('woff'),
+        url('FederalEscortScanlines.ttf') format('truetype'),
+        url('FederalEscortScanlines.svg#FederalEscortScanlines') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Carrington';
+    src: url('Carrington.eot');
+    src: url('Carrington.eot?#iefix') format('embedded-opentype'),
+        url('Carrington.woff2') format('woff2'),
+        url('Carrington.woff') format('woff'),
+        url('Carrington.ttf') format('truetype'),
+        url('Carrington.svg#Carrington') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

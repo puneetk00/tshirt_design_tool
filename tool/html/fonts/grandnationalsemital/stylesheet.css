@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Grand National Semi';
+    src: url('GrandNationalSemi-Italic.eot');
+    src: url('GrandNationalSemi-Italic.eot?#iefix') format('embedded-opentype'),
+        url('GrandNationalSemi-Italic.woff2') format('woff2'),
+        url('GrandNationalSemi-Italic.woff') format('woff'),
+        url('GrandNationalSemi-Italic.ttf') format('truetype'),
+        url('GrandNationalSemi-Italic.svg#GrandNationalSemi-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

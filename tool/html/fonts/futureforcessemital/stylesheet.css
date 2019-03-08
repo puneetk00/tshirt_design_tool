@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Future Forces Semi';
+    src: url('FutureForcesSemi-Italic.eot');
+    src: url('FutureForcesSemi-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FutureForcesSemi-Italic.woff2') format('woff2'),
+        url('FutureForcesSemi-Italic.woff') format('woff'),
+        url('FutureForcesSemi-Italic.ttf') format('truetype'),
+        url('FutureForcesSemi-Italic.svg#FutureForcesSemi-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

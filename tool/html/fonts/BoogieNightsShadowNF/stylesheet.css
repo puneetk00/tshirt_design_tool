@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Boogie Nights ShadowNF';
+    src: url('BoogieNightsShadowNF.eot');
+    src: url('BoogieNightsShadowNF.eot?#iefix') format('embedded-opentype'),
+        url('BoogieNightsShadowNF.woff2') format('woff2'),
+        url('BoogieNightsShadowNF.woff') format('woff'),
+        url('BoogieNightsShadowNF.ttf') format('truetype'),
+        url('BoogieNightsShadowNF.svg#BoogieNightsShadowNF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

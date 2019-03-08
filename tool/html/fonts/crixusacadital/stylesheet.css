@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Crixus 3D';
+    src: url('Crixus3DItalic.eot');
+    src: url('Crixus3DItalic.eot?#iefix') format('embedded-opentype'),
+        url('Crixus3DItalic.woff2') format('woff2'),
+        url('Crixus3DItalic.woff') format('woff'),
+        url('Crixus3DItalic.ttf') format('truetype'),
+        url('Crixus3DItalic.svg#Crixus3DItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

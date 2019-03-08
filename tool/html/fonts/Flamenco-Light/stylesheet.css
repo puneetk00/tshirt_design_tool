@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Flamenco';
+    src: url('Flamenco-Light.eot');
+    src: url('Flamenco-Light.eot?#iefix') format('embedded-opentype'),
+        url('Flamenco-Light.woff2') format('woff2'),
+        url('Flamenco-Light.woff') format('woff'),
+        url('Flamenco-Light.ttf') format('truetype'),
+        url('Flamenco-Light.svg#Flamenco-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+

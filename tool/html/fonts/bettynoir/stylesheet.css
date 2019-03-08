@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Betty Noir';
+    src: url('BettyNoir.eot');
+    src: url('BettyNoir.eot?#iefix') format('embedded-opentype'),
+        url('BettyNoir.woff2') format('woff2'),
+        url('BettyNoir.woff') format('woff'),
+        url('BettyNoir.ttf') format('truetype'),
+        url('BettyNoir.svg#BettyNoir') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

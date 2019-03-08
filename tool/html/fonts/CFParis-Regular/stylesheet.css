@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'CF Paris';
+    src: url('CFParis-Regular.eot');
+    src: url('CFParis-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CFParis-Regular.woff2') format('woff2'),
+        url('CFParis-Regular.woff') format('woff'),
+        url('CFParis-Regular.ttf') format('truetype'),
+        url('CFParis-Regular.svg#CFParis-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

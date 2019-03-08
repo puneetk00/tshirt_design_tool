@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'BeautySchoolDropoutII';
+    src: url('BeautySchoolDropoutII.eot');
+    src: url('BeautySchoolDropoutII.eot?#iefix') format('embedded-opentype'),
+        url('BeautySchoolDropoutII.woff2') format('woff2'),
+        url('BeautySchoolDropoutII.woff') format('woff'),
+        url('BeautySchoolDropoutII.ttf') format('truetype'),
+        url('BeautySchoolDropoutII.svg#BeautySchoolDropoutII') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

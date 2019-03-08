@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Grand National Leftalic';
+    src: url('GrandNationalLeftalic.eot');
+    src: url('GrandNationalLeftalic.eot?#iefix') format('embedded-opentype'),
+        url('GrandNationalLeftalic.woff2') format('woff2'),
+        url('GrandNationalLeftalic.woff') format('woff'),
+        url('GrandNationalLeftalic.ttf') format('truetype'),
+        url('GrandNationalLeftalic.svg#GrandNationalLeftalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

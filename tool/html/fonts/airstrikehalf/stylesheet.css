@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airstrike Half-Tone';
+    src: url('AirstrikeHalf-Tone.eot');
+    src: url('AirstrikeHalf-Tone.eot?#iefix') format('embedded-opentype'),
+        url('AirstrikeHalf-Tone.woff2') format('woff2'),
+        url('AirstrikeHalf-Tone.woff') format('woff'),
+        url('AirstrikeHalf-Tone.ttf') format('truetype'),
+        url('AirstrikeHalf-Tone.svg#AirstrikeHalf-Tone') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,310 @@
+/**reset css**/
+*, *::after, *::before {box-sizing: border-box;}
+img {max-width: 100%; display: inline-block;}
+body, html {margin: 0; padding: 0; width: 100%; height: 100%;font-family: 'Montserrat', sans-serif;}
+.tool-container {max-width: 1138px;margin: 0 auto; background: #f8f8f8; padding: 55px 35px;overflow: hidden;position: relative;}
+.edit-options {width: 130px; display: inline-block; vertical-align: top; text-align: center;}
+.edit-options .options-icon {display: block; width: 70px; height: 70px; text-align: center; border-radius: 100%; margin: 0 auto;box-shadow: 0 0 16px -1px rgba(0, 0, 0, 0.3);position: relative;}
+.edit-options .options-icon img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.options-value {font-size: 12px; color: #444; text-transform: uppercase; font-weight: 700; margin: 10px 0 50px; transition: all 0.3s ease-in;}
+.options:last-of-type .options-value {margin-bottom: 0;}
+.start-over {font-size: 12px; color: #444; text-transform: uppercase; font-weight: 700; text-decoration: none;}
+.start-over span {color:#f2622e;}
+.options {cursor: pointer;}
+.options-icon {background: url(../assests/images/sprit-images.png) no-repeat center center #fff; transition: all 0.3s ease-in;}
+#add-edit .options-icon {background-position:13px 12px;}
+#add-art .options-icon {background-position:13px -41px;}
+#upload .options-icon {background-position:13px -94px;}
+#add-notes .options-icon {background-position:13px -146px;}
+#change-product .options-icon {background-position:13px -198px;}
+.options:hover .options-icon {box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.1);}
+#add-edit:hover .options-icon, #add-edit.active .options-icon {background-position:-57px 12px; background-color:#f2622e;}
+#add-art:hover .options-icon, #add-art.active .options-icon {background-position:-58px -42px; background-color:#f2622e;}
+#upload:hover .options-icon, #upload.active .options-icon {background-position:-59px -94px; background-color:#f2622e;}
+#add-notes:hover .options-icon, #add-notes.active .options-icon {background-position:-60px -146px; background-color:#f2622e;}
+#change-product:hover .options-icon, #change-product.active .options-icon {background-position:-58px -200px; background-color:#f2622e;}
+.edit-area {width: 615px; max-width: 100%; display: inline-block; vertical-align: top;position: relative;}
+.current-price-section {width: 23%;float: right; background: #edeeef; border: 1px solid #d3d8da;    padding: 45px 20px 25px;margin-top: 140px;}
+.current-price-section p.current-text {margin: 0;font-size: 18px; color: #444; font-weight: 600;}
+.current-price-section p.current-price {color: #82c408;font-size: 30px;font-weight: 600;margin: 15px 0;}
+a.buy-this {display: block;width: 100%; background: #8ec63f;text-align: center; color: #fff;  text-decoration: none;border-radius: 4px; height: 40px;line-height: 40px; font-size: 14px; font-weight: 500;transition: all 0.3s ease-in;}
+a.buy-this:hover {background: #6f9835;}
+#back-view {display: none; height: 100%;}
+.canvas-container {margin: auto; border: 1px dashed transparent;}
+.front-back-option {text-align: center; margin-top: 30px;}
+.front-back-option ul {margin: 0 auto;padding: 0;list-style: none; width: 145px;border: 1px solid #3f3c41;  border-radius: 5px;overflow: hidden;}
+.front-back-option ul li{display: inline-block;margin: 0 -1px;}
+.front-back-option ul li a {display: block; width: 70px;height: 42px;text-align: center;line-height: 42px;   text-decoration: none;background: #ffffff;color: #444;font-weight: 600;}
+.img-wrapper {position: relative;overflow: hidden;height: 615px;z-index: 9;}
+#front-product-view {background: url(../assests/products/images/tshirt-front.jpg) no-repeat center center; background-size: 154%;}
+#back-product-view {display: none; background: url(../assests/products/images/tshirt-back.jpg) no-repeat center center; background-size: 154%;}
+.front-back-option ul li.active a {background: #3f3c41;color: #fff;}
+.front-back-option ul li:last-child a {position: relative; right: -1px;}
+.editing-tool-con {width: 340px;background: #fff; position: absolute;top: 80px;right: -100%; min-height: 200px;box-shadow: 0 10px 21px 0 rgba(0, 0, 0, 0.2); transition: all 0.3s ease-in;}
+.editing-tool-con.active {right: 15px;}
+.option-heading {background: #f2622e;padding: 10px 32px 10px 15px;color: #fff;text-transform: uppercase; font-size: 15px;font-weight: 600;position: relative;}
+a.close-option {width: 17px;height: 18px;font-size: 18px; display: inline-block;position: absolute;right: 10px;z-index: 9;color: #fff;}
+.main-options {padding: 15px;}
+.textarea {height: 85px;width: 100%;display: block; background: #ededed;border: 1px solid #c4c4c4;resize: none;padding: 10px; margin-bottom: 22px;}
+.textarea:focus, .font-family-col select:focus {outline: none;}
+.main-options-half {display: inline-block; vertical-align: top; width: 49%;}
+.main-options-half label {font-size: 14px;color: #444;font-weight: 600; display: block; width: 100%;   margin-bottom: 15px;}
+.font-family-col select {width: 100%;padding: 5px; background: #ededed; border-radius: 3px; height: 35px;}
+.sprit-img {background: url(../assests/images/sprit-images.png) no-repeat center center; background-position: 0 0;}
+.centerAlign {width: 50px; height: 35px; border: 1px solid #b8b8b8; font-size: 0; display: inline-block;   vertical-align: top;border-radius: 4px; background: url(../assests/images/center-img.png) no-repeat center center;}
+.centerAlign.active {background: url(../assests/images/center-img.png) no-repeat center center #ededed;}
+ul.text-align {margin: 0;padding: 0;list-style: none;display: inline-block;width: calc(100% - 57px);border: 1px solid #b8b8b8; border-radius: 3px;}
+ul.text-align li {display: inline-block;width: 30%; text-align: center;}
+ul.text-align li.active {background: #ededed;}
+ul.text-align li a {height: 32px; display: block; color: #000; line-height: 32px;}
+.align {margin: 15px 0;}
+.rotation input#rotationValue, .arcText input#arcValue {display: inline-block; vertical-align: top;width: 35px; height: 25px;  text-align: center;padding: 3px;border-radius: 3px;border: 1px solid #bdbdbd;}
+.rotation {margin-bottom: 20px;}
+.font-size {margin-bottom: 20px;}
+.main-options-half .font-size label {display: inline-block;margin: 0; width: 58%;}
+.main-options-half .font-size input.fontSize {width: 35px;height: 25px;padding: 4px;border-radius: 3px;    border: 1px solid #bdbdbd;float: right;text-align: center;}
+.color-planet ul {margin: 0; padding: 0; list-style: none;}
+.color-planet ul li {width: 30px; height: 30px;display: inline-block;vertical-align: top;font-size: 0;  border: 1px solid rgba(204, 204, 204, 0.3); margin: 0 0 2px 0; cursor: pointer;position: relative;}
+.color-planet ul li.active::before {content: '';position: absolute;width: 25px; height: 18px;left: 1px;
+top: 6px;z-index: 9; background: url(../assests/images/active-color.png) no-repeat center center;}
+.color-planet {padding-left: 50px;}
+.doneBtn-con {padding: 15px;}
+a#textDone {width: 135px; height: 40px; line-height: 40px; text-decoration: none; text-align: center;   display: block;background: #8ec63f; color: #fff; border-radius: 3px; text-transform: uppercase; font-size: 14px;font-weight: 600;}
+.gridlines {border: 1px dashed #fff;}
+.deleteBtn {width: 17px;height: 18px;font-size: 18px;display: inline-block; z-index: 9;color: #fff;}
+.editing-tool-con input[type="range"] {display: inline-block; vertical-align: top; width: calc(100% - 49px);  margin-right: 6px;height: 25px;}
+.editing-tool-con input[type=range]:focus {outline: none;}
+.editing-tool-con input[type=range]::-webkit-slider-runnable-track { width: 100%; height: 5px;cursor: pointer;animate: 0.2s; box-shadow: 0px 0px 0px #000000; background: #d1d0d0; border-radius: 1px; border: 0px solid #000000;}
+.editing-tool-con input[type=range]::-webkit-slider-thumb { box-shadow: none; border: none;height: 27px;width: 15px;border-radius:none;  background: url(../assests/images/range-arrow.png) no-repeat center center; cursor: pointer; margin-top: -7px;}
+.editing-tool-con input[type=range]:focus::-webkit-slider-runnable-track {background: #d1d0d0;}
+.editing-tool-con input[type=range]::-moz-range-track {width: 100%;height: 5px;cursor: pointer;animate: 0.2s;box-shadow: 0px 0px 0px #000000;background: #d1d0d0;border-radius: 1px; border: 0px solid #000000;}
+.editing-tool-con input[type=range]::-moz-range-thumb { box-shadow: none;border: none;height: 27px;width: 15px; border-radius: 0;  background: url(../assests/images/range-arrow.png) no-repeat center center;  cursor: pointer;}
+.editing-tool-con input[type=range]::-ms-track {width: 100%;height: 5px;cursor: pointer;animate: 0.2s;background: transparent;  border-color: transparent;color: transparent;}
+.editing-tool-con input[type=range]::-ms-fill-lower {background: #d1d0d0; border: 0px solid #000000; border-radius: 2px; box-shadow: 0px 0px 0px #000000;}
+.editing-tool-con input[type=range]::-ms-fill-upper { background:#d1d0d0;border: 0px solid #000000; border-radius: 2px; box-shadow: 0px 0px 0px #000000;}
+.editing-tool-con input[type=range]::-ms-thumb { margin-top: 0; box-shadow: none; border: none; height: 27px;  width: 15px; border-radius: 0; background: url(../assests/images/range-arrow.png) no-repeat center center; cursor: pointer;}
+.editing-tool-con input[type=range]:focus::-ms-fill-lower { background: #d1d0d0;}
+.editing-tool-con input[type=range]:focus::-ms-fill-upper {background: #d1d0d0;}
+.color-planet ul li.active i.fa.fa-check {font-size: 17px; color: #fff; position: relative; top: 5px;    left: 6px;}
+.product-images {position: absolute;top: 0;left: 0; width: 100%;height: 615px;}
+.product-images .deleteBtn {display: none;}
+.arcText.rotation {margin-bottom: 0;}
+.main-options-half .arcText.rotation label {margin-bottom: 5px;}
+.bottom-control {max-width: 1138px;margin: 0 auto; background: #8ec63f;padding: 20px;}
+.bottom-control-left {display: inline-block; vertical-align: top;width: 60%;}
+.bottom-control-right {float: right; width: 38%;}
+.bottom-control-right a.see-pricing {display: block; width: 185px; height: 44px; text-align: center;  color: #fff; background: #f1612d; line-height: 44px; text-decoration: none; border-radius: 4px;    text-transform: uppercase;font-size: 16px;font-weight: 600; margin: 0 0 0 auto; transition: all 0.5s ease-in;}
+.bottom-control-right a.see-pricing:hover{background: #e85c29;}
+.save-design {display: inline-block;vertical-align: top;}
+.save-design a {display: block;height: 44px;line-height: 44px; font-size: 16px;text-transform: uppercase;    color: #fff;border: 1px solid #fff;width: 167px;text-align: center;border-radius: 4px;text-decoration: none;font-weight: 600; transition: all 0.3s ease-in;}
+.save-design a:hover {border: 1px solid #f1612d; background: #f1612d; color: #fff;}
+.change-product {display: inline-block;vertical-align: top;margin-left: 25px;}
+.acctual-product-image {display: inline-block;vertical-align: middle;border: 1px solid #e85c29; width: 50px;height: 50px; border-radius: 4px; background-color: #fff;background-repeat: no-repeat; background-size: 100%;background-position: center center;}
+.bottom-product-details { display: inline-block; vertical-align: middle;margin-left: 25px;}
+.bottom-product-details ul {margin: 0;padding: 0; list-style: none;}
+.bottom-product-details li {font-weight: 500;}
+.bottom-product-details li a.change-product-bottom, .bottom-product-details li a {color: #000;margin-left: 10px;font-weight: 700;}
+.bottom-product-details li span.color-code-bottom {display: inline-block;vertical-align: middle; width: 17px;height: 17px; border: 1px solid #fff;background: #000;}
+.bottom-product-details li:first-child {margin-bottom: 5px;}
+.dgarImage {height: 285px; position: relative;}
+.dgarImage input[type=file] {display: block;margin-bottom: 0;width: 100%; height: 100%;opacity: 0;cursor: pointer;padding: 0;position: absolute;top: 0;left: 0; z-index: 9;}
+div#filedrag {text-align: center;font-size: 16px;position: absolute; width: 100%;top: 50%;left: 50%; transform: translate(-50%, -50%);}
+div#filedrag img {margin-bottom: 10px;}
+div#filedragBack {text-align: center;font-size: 16px;position: absolute; width: 100%;top: 50%;left: 50%; transform: translate(-50%, -50%);}
+div#filedragBack img {margin-bottom: 10px;}
+.top-edit-section { padding: 13px; background: #f6f6f6; margin-bottom: 25px; text-align: left;}
+.center-text {display: inline-block; vertical-align: top; width: 50px; text-align: center; font-size: 11px;  color: #404040; font-weight: 400;}
+.center-text input#uploadCenter, .center-text #uploadCenterback { margin: 0; background: url(../assests/images/center-img.png) no-repeat center center #fff; font-size: 0; width: 100%; border: 1px solid #b8b8b8; border-radius: 4px;margin-bottom: 5px;height: 35px;cursor: pointer;}
+.flipText { display: inline-block; vertical-align: top; text-align: center;font-size: 11px; color: #404040; font-weight: 400;height: 33px;}
+.flipText ul {border: 1px solid #b8b8b8; border-radius: 4px; background: #fff;margin-bottom: 5px; margin-top: 0; padding: 0;}
+.flipText ul li {width: 45px; height: 33px; display: inline-block; vertical-align: top; position: relative;  margin-left: 0;margin-top: 0;padding: 0;}
+.flipText ul li:last-child::after{display: none;}
+.flipText ul li a {display: block; height: 33px; padding: 9px 0 0;}
+.flipText ul li::after { top: 0; content: ''; width: 1px; height: 33px; display: inline-block;    background: #b8b8b8; position: absolute; right: -2px;}
+.flipText ul li a img {display: block; margin: 0 auto;}
+.text-rotation {text-align: center;margin-top: 15px;}
+span.rotationNameText {display: inline-block; width: 70px;font-size: 14px;color: #444; font-weight: 600;}
+.text-rotation input[type=range] {width: 56%;display: inline-block;margin: 0;background: none;   vertical-align: top;}
+span#rotationValue, span#rotationValue-back { width: 45px; vertical-align: top; float: right;}
+#rotationValue input#rotateValImage { width: 100%; border: 1px solid #b8b8b8; border-radius: 3px;    text-align: center;font-weight: 300;}
+.text-rotation > label {display: block;width: 100%;text-align: left;}
+span#uploadRotationValue {display: inline-block;vertical-align: top;width: 40px;margin-left: 8px;}
+span#uploadRotationValue input#rotateValImage, input#rotateValImageBack {display: inline-block;vertical-align: top;width: 35px;    height: 25px;text-align: center; padding: 3px;border-radius: 3px;border: 1px solid #bdbdbd;}
+.makeOneColor .border-row { min-height: 45px; border-bottom: 1px solid #e1e1e1;padding-bottom: 17px;    margin-bottom: 15px;padding-left: 13px;padding-right: 13px;}
+.makeOneColor .border-row label {margin: 0;color: #444;font-size: 14px; font-weight: 600;line-height: 1; position: relative; top: 7px;display: inline-block;}
+.makeOneColor .border-row label.switch {position: relative; width: 50px;height: 24px; float: right;}
+.switch input {display:none;}
+.slider {position: absolute;cursor: pointer;top: 0; left: 0;right: 0; bottom: 0; background-color: #ccc; -webkit-transition: .4s;transition: .4s;}
+.slider:before {position: absolute;content: "";height: 22px; width: 22px; left: 1px; bottom: 1px;background-color: white;  -webkit-transition: .4s;transition: .4s;}
+.switch input:checked + .slider { background-color: #f1612d;}
+.switch input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
+.switch input:checked + .slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(26px);}
+.slider.round { border-radius: 34px;}
+.slider.round:before { border-radius: 50%;}
+.makeOneColor .border-row label small {display: block;margin-top: 5px;font-weight: normal;font-size: 11px;}
+.popupLike {display: none;}
+.change-color-list {padding: 0;margin: 10px 0 0; list-style: none; float: right;cursor: pointer;}
+.change-color-list li {display: inline-block;vertical-align: top;}
+.change-color-list li span {display: inline-block;vertical-align: top;width: 22px;height: 22px;  border-radius: 4px;margin: 0 4px;border: 1px solid #f1ecec;}
+.border-row.last-row {border-bottom: none; margin-bottom: 0;}
+ul#change-color, #change-color-back {display: block;margin: 20px 0 0;padding: 0; list-style: none;}
+span.Select-Color-heading {color: #444; font-weight: 600; font-size: 14px; display: block;}
+#change-color ul.change-color-list {float: none;border-bottom: 1px solid #e1e1e1; padding-bottom: 15px;    margin-bottom: 15px;}
+#change-color > li, #change-color-back > li {display: inline-block;font-size: 0;width: 20px; height: 20px; border-radius: 2px;vertical-align: top;margin-bottom: 5px;cursor: pointer;border: 1px solid rgba(204, 204, 204, 0.7);}
+.btn-grp > a {background: #8ec63f;display: inline-block;vertical-align: top; color: #fff;  text-decoration: none;width: 90px;text-align: center; height: 30px;line-height: 30px;font-size: 14px;border-radius: 3px;    margin: 20px 10px 0 0; transition: all .3s ease-in;}
+.btn-grp > a:hover {background: #6f9835;}
+.add-notes-opt-inner {padding: 20px;}
+.add-notes-opt-inner textarea {width: 100%;height: 170px; display: block; margin-bottom: 20px;border: 1px solid #ccc;}
+.add-notes-opt-inner input[type="submit"] {display: block;width: 130px;height: 35px; line-height: 35px;  padding: 0; background: #8ec63f; border: none; color: #fff; font-size: 15px;border-radius: 3px; cursor: pointer; transition: all 0.3s ease-in;}
+.add-notes-opt-inner input[type="submit"]:hover {background: #6f9835;}
+.icons-container ul {margin: 0; padding: 0;display: flex;flex-wrap: wrap;}
+.icons-container ul li {list-style: none;width: 50%;height: 80px; line-height: 80px; padding: 2px;}
+.icons-container ul li a {display: block; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); color: #fff; text-decoration: none; font-size: 15px;text-transform: capitalize; letter-spacing: 1px;  font-weight: 600; text-align: center;}
+/* .icons-container ul li > a:hover{font-size: 15px;} */
+.icons-container {padding: 15px;}
+#selectImgBack {display: none;}
+.arcText.rotation span.arch-x {font-size: 11px; display: block; width: 100%; font-weight: 700;margin-bottom: 15px;}
+.arcText.rotation span.arch-x input[type="range"] {margin: 0 0 0 6px; width: 90px; vertical-align: middle;}
+.canvas-output {position: absolute; top: 15px; left: 50%; transform: translate(-50%, 15px); z-index: 999;    background: #fff; padding: 25px; display: none; width: 665px;}
+body.can-output::before {content: ''; display: block; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 99;}
+.canvas-output .canvas-output-front { display: block;}
+.canvas-output .canvas-output-back { display: block;}
+a.canvas-output-close {position: absolute; top: 10px;right: 10px;text-decoration: none; background: #000;    border-radius: 100%; width: 30px; height: 30px; line-height: 30px; text-align: center; color: #fff;    font-size: 14px; font-weight: 800; transition: all 0.3s ease-in;z-index: 99;}
+a.canvas-output-close:hover {transform: rotate(-180deg);}
+li.first-category {position: relative;}
+li.first-category > ul {position: absolute;width: 310px;left: 0;}
+.icons-container ul li.second-category {display: inline-block; width: 50%; vertical-align: top;margin-right: -5px;}
+.icons-container ul li.active {height: 0;line-height: 0;padding: 0;}
+.icons-container ul li.active > a {font-size: 0;}
+a.back-to-art {display: inline-block;vertical-align: top; background: url(../assests/images/left-arrow.png) no-repeat center left; width: 30px; height: 20px;}
+.seprate-icons {display: none;padding: 20px;}
+.seprate-icons ul{padding: 0; margin: 0; list-style: none;}
+.seprate-icons ul li {display: inline-block; vertical-align: top;}
+.seprate-icons ul li a {display: block;}
+a.bring-forward {float: right;width: 35px; height: 25px; border: 1px solid #bdbdbd; border-radius: 3px;    font-size: 0; text-decoration: none; position: relative;}
+.font-size.forward-index label {width: 71%;}
+a.bring-forward.active::after {content: '✓'; position: absolute; top: 0;left: 0;font-size: 18px; width: 100%;text-align: center; color: #000;}
+.bring-forward-img {display: inline-block;} 
+.bring-forward-img label {font-size: 14px; font-weight: 600; vertical-align: middle;display: inline-block;width: auto !important;margin-left: 10px;}
+.bring-forward-img a.bring-forward {float: none;display: inline-block; vertical-align: middle; background: #fff;}
+
+
+li.Animals a{background-image: url(../assests/clip-arts/animals/alligators/gator10.png); background-position: center center; background-repeat: no-repeat; background-size: 40%; }
+li.charity a{background-image: url(../assests/clip-arts/charity/chaarity1.png); background-position: center center; background-repeat: no-repeat;  background-size: 40%;}
+li.emojis a{background-image: url(../assests/clip-arts/emojis/em1.png); background-position: center center; background-repeat: no-repeat; background-size: 20%;}
+li.food-drink a{background-image: url(../assests/clip-arts/food&drink/apples/appl2.png); background-position: center center; background-repeat: no-repeat; background-size: 34%;}
+li.military a{background-image: url(../assests/clip-arts/military/military1.png); background-position: center center; background-repeat: no-repeat; background-size: 26%;}
+li.music a{background-image: url(../assests/clip-arts/music/music1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.occupations a{background-image: url(../assests/clip-arts/occupations/banking/baking5.png); background-position: center center; background-repeat: no-repeat; background-size: 52%;}
+li.parties-events a{background-image: url(../assests/clip-arts/parties-events/21/21\ 1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.people a{background-image: url(../assests/clip-arts/people/people1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.seasons a{background-image: url(../assests/clip-arts/seasons/christmas/christmas1.png); background-position: center center; background-repeat: no-repeat; background-size: 35%;}
+li.shapes-symbols a{background-image: url(../assests/clip-arts/shapes-symbols/anchor/anchor1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.sports-games a{background-image: url(../assests/clip-arts/sports-games/baseball/base1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.travel a{background-image: url(../assests/clip-arts/travel/air1.png); background-position: center center; background-repeat: no-repeat; background-size: 71%;}
+li.Trendy a{background-image: url(../assests/clip-arts/Trendy/pop1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.usa a{background-image: url(../assests/clip-arts/usa/sau10.png); background-position: center center; background-repeat: no-repeat; background-size: 44%;}
+li.alligators a{background-image: url(../assests/clip-arts/animals/alligators/gator8.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.apes a{background-image: url(../assests/clip-arts/animals/apes/ape2.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.bears a{background-image: url(../assests/clip-arts/animals/bears/bear8.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.beavers a{background-image: url(../assests/clip-arts/animals/beavers/beaver2.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.bees a{background-image: url(../assests/clip-arts/animals/bees/bee2.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.birds a{background-image: url(../assests/clip-arts/animals/birds/bird6.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.bulls a{background-image: url(../assests/clip-arts/animals/bulls/bull2.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.butterflies a{background-image: url(../assests/clip-arts/animals/butterflies/butterfly2.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.cardinals a{background-image: url(../assests/clip-arts/animals/cardinals/cardinal1.png); background-position: center center; background-repeat: no-repeat; background-size: 26%;}
+li.cats a{background-image: url(../assests/clip-arts/animals/cats/cat2.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.chickens a{background-image: url(../assests/clip-arts/animals/chickens/chicken1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.crab a{background-image: url(../assests/clip-arts/animals/crab/crab2.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.dogs a{background-image: url(../assests/clip-arts/animals/dogs/dog1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.dolphins a{background-image: url(../assests/clip-arts/animals/dolphins/dolphin1.png); background-position: center center; background-repeat: no-repeat; background-size: 73%;}
+li.eagles a{background-image: url(../assests/clip-arts/animals/eagles/eagle2.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.elephants a{background-image: url(../assests/clip-arts/animals/elephants/elephant2.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.flamingos a{background-image: url(../assests/clip-arts/animals/flamingos/flamingo6.png); background-position: center center; background-repeat: no-repeat; background-size: 21%;}
+li.giraffes a{background-image: url(../assests/clip-arts/animals/giraffes/giraffe1.png); background-position: center center; background-repeat: no-repeat; background-size: 11%;}
+li.horses a{background-image: url(../assests/clip-arts/animals/horses/horse1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.jaguars a{background-image: url(../assests/clip-arts/animals/jaguars/jaguar10.png); background-position: center center; background-repeat: no-repeat; background-size: 77%;}
+li.lions a{background-image: url(../assests/clip-arts/animals/lions/lion1.png); background-position: center center; background-repeat: no-repeat; background-size:30%;}
+li.owls a{background-image: url(../assests/clip-arts/animals/owls/owl1.png); background-position: center center; background-repeat: no-repeat; background-size: 27%;}
+li.panthers a{background-image: url(../assests/clip-arts/animals/panthers/panther1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.penguins a{background-image: url(../assests/clip-arts/animals/penguins/penguin1.png); background-position: center center; background-repeat: no-repeat; background-size: 19%;}
+li.rams a{background-image: url(../assests/clip-arts/animals/rams/ram1.png); background-position: center center; background-repeat: no-repeat; background-size: 69%;}
+li.sharks a{background-image: url(../assests/clip-arts/animals/sharks/shark1.png); background-position: center center; background-repeat: no-repeat; background-size:83%;}
+li.sheep a{background-image: url(../assests/clip-arts/animals/sheep/sheep1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.snakes a{background-image: url(../assests/clip-arts/animals/snakes/snake1.png); background-position: center center; background-repeat: no-repeat; background-size: 29%;}
+li.tigers a{background-image: url(../assests/clip-arts/animals/tigers/tiger1.png); background-position: center center; background-repeat: no-repeat; background-size: 57%;}
+li.unicorns a{background-image: url(../assests/clip-arts/animals/unicorns/unicorn1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.wolves a{background-image: url(../assests/clip-arts/animals/wolves/wolf1.png); background-position: center center; background-repeat: no-repeat; background-size: 61%;}
+li.alcohol a{background-image: url(../assests/clip-arts/food&drink/alcohol/alcohol1.png); background-position: center center; background-repeat: no-repeat; background-size: 21%;}
+li.apples a{background-image: url(../assests/clip-arts/food&drink/apples/appl2.png); background-position: center center; background-repeat: no-repeat; background-size: 34%;}
+li.bbq a{background-image: url(../assests/clip-arts/food&drink/bbq/bbq1.png); background-position: center center; background-repeat: no-repeat; background-size: 71%;}
+li.beer a{background-image: url(../assests/clip-arts/food&drink/beer/beer1.png); background-position: center center; background-repeat: no-repeat; background-size: 26%;}
+li.chef a{background-image: url(../assests/clip-arts/food&drink/chef/chef1.png); background-position: center center; background-repeat: no-repeat; background-size: 57%;}
+li.coffee a{background-image: url(../assests/clip-arts/food&drink/coffee/coffee1.png); background-position: center center; background-repeat: no-repeat; background-size: 27%;}
+li.desserts a{background-image: url(../assests/clip-arts/food&drink/desserts/dessert1.png); background-position: center center; background-repeat: no-repeat; background-size: 27%;}
+li.pizza a{background-image: url(../assests/clip-arts/food&drink/pizza/pizza1.png); background-position: center center; background-repeat: no-repeat; background-size: 62%;}
+li.restaurant a{background-image: url(../assests/clip-arts/food&drink/restaurant/rest1.png); background-position: center center; background-repeat: no-repeat; background-size: 63%;}
+li.banking a{background-image: url(../assests/clip-arts/occupations/banking/baking5.png); background-position: center center; background-repeat: no-repeat; background-size: 62%;}
+li.business a{background-image: url(../assests/clip-arts/occupations/business/business1.png); background-position: center center; background-repeat: no-repeat; background-size: 14%;}
+li.construction a{background-image: url(../assests/clip-arts/occupations/construction/construction1.png); background-position: center center; background-repeat: no-repeat; background-size: 36%;}
+li.electrician a{background-image: url(../assests/clip-arts/occupations/electrician/electrician.png); background-position: center center; background-repeat: no-repeat; background-size: 26%;}
+li.emergency a{background-image: url(../assests/clip-arts/occupations/emergency/emergency1.png); background-position: center center; background-repeat: no-repeat; background-size: 57%;}
+li.entertainment a{background-image: url(../assests/clip-arts/occupations/entertainment/entertainment1.png); background-position: center center; background-repeat: no-repeat; background-size: 49%;}
+li.farming a{background-image: url(../assests/clip-arts/occupations/farming/farming1.png); background-position: center center; background-repeat: no-repeat; background-size: 66%;}
+li.firefighter a{background-image: url(../assests/clip-arts/occupations/firefighter/fire1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.fitness a{background-image: url(../assests/clip-arts/occupations/fitness/fitness1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.government a{background-image: url(../assests/clip-arts/occupations/government/gov1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.law-enforcement a{background-image: url(../assests/clip-arts/occupations/law-enforcement/police1.png); background-position: center center; background-repeat: no-repeat; background-size: 32%;}
+li.medical a{background-image: url(../assests/clip-arts/occupations/medical/doc1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.real-estate a{background-image: url(../assests/clip-arts/occupations/real-estate/re1.png); background-position: center center; background-repeat: no-repeat; background-size:77%;}
+li.teacher a{background-image: url(../assests/clip-arts/occupations/teacher/teacher1.png); background-position: center center; background-repeat: no-repeat; background-size: 76%;}
+li.teaching a{background-image: url(../assests/clip-arts/occupations/teaching/teach1.png); background-position: center center; background-repeat: no-repeat; background-size: 30%;}
+li.trucking a{background-image: url(../assests/clip-arts/occupations/trucking/truck1.png); background-position: center center; background-repeat: no-repeat; background-size: 69%;}
+li.date-21 a{background-image: url(../assests/clip-arts/parties-events/21/21\ 1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.babyshower a{background-image: url(../assests/clip-arts/parties-events/babyshower/baby1.png); background-position: center center; background-repeat: no-repeat; background-size: 52%;}
+li.bachelorette-party a{background-image: url(../assests/clip-arts/parties-events/bachelorette-party/bac1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.bacheor-party a{background-image: url(../assests/clip-arts/parties-events/bacheor-party/bach1.png); background-position: center center; background-repeat: no-repeat; background-size: 54%;}
+li.birthday a{background-image: url(../assests/clip-arts/parties-events/birthday/bday10.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.graduation a{background-image: url(../assests/clip-arts/parties-events/graduation/grad1.png); background-position: center center; background-repeat: no-repeat; background-size: 21%;}
+li.holiday-party a{background-image: url(../assests/clip-arts/parties-events/holiday-party/hol1.png); background-position: center center; background-repeat: no-repeat; background-size: 81%;}
+li.wedding a{background-image: url(../assests/clip-arts/parties-events/wedding/wed1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.July-4th-of a{background-image: url(../assests/clip-arts/seasons/4th-of-July/4th1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.easter a{background-image: url(../assests/clip-arts/seasons/easter/easter1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.fathers-day a{background-image: url(../assests/clip-arts/seasons/fathers-day/father1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.halloween a{background-image: url(../assests/clip-arts/seasons/halloween/halloween1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.hanukkah a{background-image: url(../assests/clip-arts//seasons/hanukkah/hanukkah1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.mothers-day a{background-image: url(../assests/clip-arts/seasons/mothers-day/mom1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.new-years a{background-image: url(../assests/clip-arts/seasons/new-years/nye1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.st-patricks-day a{background-image: url(../assests/clip-arts/seasons/st-patricks-day/spats10.png); background-position: center center; background-repeat: no-repeat; background-size: 69%;}
+li.thanksgiving a{background-image: url(../assests/clip-arts/seasons/thanksgiving/thanks1.png); background-position: center center; background-repeat: no-repeat; background-size: 32%;}
+li.valentines-day a{background-image: url(../assests/clip-arts/seasons/valentines-day/vday1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.anchor a{background-image: url(../assests/clip-arts/shapes-symbols/anchor/anchor1.png); background-position: center center; background-repeat: no-repeat; background-size: 46%;}
+li.arrow a{background-image: url(../assests/clip-arts/shapes-symbols/arrow/arrow1.png); background-position: center center; background-repeat: no-repeat; background-size: 59%;}
+li.banner a{background-image: url(../assests/clip-arts/shapes-symbols/banner/banner1.png); background-position: center center; background-repeat: no-repeat; background-size: 64%;}
+li.border a{background-image: url(../assests/clip-arts/shapes-symbols/border/border1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.circle a{background-image: url(../assests/clip-arts/shapes-symbols/circle/circle3.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.cross a{background-image: url(../assests/clip-arts/shapes-symbols/cross/cross1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.crown a{background-image: url(../assests/clip-arts/shapes-symbols/crown/crown1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.decorative a{background-image: url(../assests/clip-arts/shapes-symbols/decorative/deco1.png); background-position: center center; background-repeat: no-repeat; background-size: 14%;}
+li.flags a{background-image: url(../assests/clip-arts/shapes-symbols/flags/flag1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.flowers a{background-image: url(../assests/clip-arts/shapes-symbols/flowers/flower1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.hearts a{background-image: url(../assests/clip-arts/shapes-symbols/hearts/heart1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.lightening a{background-image: url(../assests/clip-arts/shapes-symbols/lightening/lightening1.png); background-position: center center; background-repeat: no-repeat; background-size: 25%;}
+li.music a{background-image: url(../assests/clip-arts/shapes-symbols/music/music1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.peace a{background-image: url(../assests/clip-arts/shapes-symbols/peace/peace1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.star a{background-image: url(../assests/clip-arts/shapes-symbols/star/star1.png); background-position: center center; background-repeat: no-repeat; background-size: 72%;}
+li.sun a{background-image: url(../assests/clip-arts/shapes-symbols/sun/sun1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.baseball a{background-image: url(../assests/clip-arts/sports-games/baseball/base1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.basketball a{background-image: url(../assests/clip-arts/sports-games/basketball/bas1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.bowling a{background-image: url(../assests/clip-arts/sports-games/bowling/bowl1.png); background-position: center center; background-repeat: no-repeat; background-size: 67%;}
+li.boxing a{background-image: url(../assests/clip-arts/sports-games/boxing/box1.png); background-position: center center; background-repeat: no-repeat; background-size: 30%;}
+li.cheering a{background-image: url(../assests/clip-arts/sports-games/cheering/cheer1.png); background-position: center center; background-repeat: no-repeat; background-size: 84%;}
+li.cross-country a{background-image: url(../assests/clip-arts/sports-games/cross-country/cc1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.football a{background-image: url(../assests/clip-arts/sports-games/football/fb1.png); background-position: center center; background-repeat: no-repeat; background-size: 66%;}
+li.golf a{background-image: url(../assests/clip-arts/sports-games/golf/golf1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.hockey a{background-image: url(../assests/clip-arts/sports-games/hockey/hock1.png); background-position: center center; background-repeat: no-repeat; background-size: 36%;}
+li.lacrosse a{background-image: url(../assests/clip-arts/sports-games/lacrosse/lac1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.soccer a{background-image: url(../assests/clip-arts/sports-games/soccer/soc1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.softball a{background-image: url(../assests/clip-arts/sports-games/softball/sb1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.tennis a{background-image: url(../assests/clip-arts/sports-games/tennis/ten1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}
+li.volleyball a{background-image: url(../assests/clip-arts/sports-games/volleyball/vb1.png); background-position: center center; background-repeat: no-repeat; background-size: 40%;}

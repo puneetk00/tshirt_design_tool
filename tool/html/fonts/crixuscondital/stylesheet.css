@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Crixus Condensed';
+    src: url('CrixusCondensedItalic.eot');
+    src: url('CrixusCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('CrixusCondensedItalic.woff2') format('woff2'),
+        url('CrixusCondensedItalic.woff') format('woff'),
+        url('CrixusCondensedItalic.ttf') format('truetype'),
+        url('CrixusCondensedItalic.svg#CrixusCondensedItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

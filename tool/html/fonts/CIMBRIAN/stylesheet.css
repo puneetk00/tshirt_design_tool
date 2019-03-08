@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Cimbrian';
+    src: url('Cimbrian.eot');
+    src: url('Cimbrian.eot?#iefix') format('embedded-opentype'),
+        url('Cimbrian.woff2') format('woff2'),
+        url('Cimbrian.woff') format('woff'),
+        url('Cimbrian.ttf') format('truetype'),
+        url('Cimbrian.svg#Cimbrian') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Chalkduster';
+    src: url('Chalkduster.eot');
+    src: url('Chalkduster.eot?#iefix') format('embedded-opentype'),
+        url('Chalkduster.woff2') format('woff2'),
+        url('Chalkduster.woff') format('woff'),
+        url('Chalkduster.ttf') format('truetype'),
+        url('Chalkduster.svg#Chalkduster') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

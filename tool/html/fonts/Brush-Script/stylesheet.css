@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Brush Script MT';
+    src: url('BrushScriptMT.eot');
+    src: url('BrushScriptMT.eot?#iefix') format('embedded-opentype'),
+        url('BrushScriptMT.woff2') format('woff2'),
+        url('BrushScriptMT.woff') format('woff'),
+        url('BrushScriptMT.ttf') format('truetype'),
+        url('BrushScriptMT.svg#BrushScriptMT') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

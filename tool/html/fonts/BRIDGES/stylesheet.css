@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bridgnorth-Shadow';
+    src: url('Bridgnorth-Shadow.eot');
+    src: url('Bridgnorth-Shadow.eot?#iefix') format('embedded-opentype'),
+        url('Bridgnorth-Shadow.woff2') format('woff2'),
+        url('Bridgnorth-Shadow.woff') format('woff'),
+        url('Bridgnorth-Shadow.ttf') format('truetype'),
+        url('Bridgnorth-Shadow.svg#Bridgnorth-Shadow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

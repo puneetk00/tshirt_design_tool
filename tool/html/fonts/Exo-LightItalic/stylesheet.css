@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Exo';
+    src: url('Exo-LightItalic.eot');
+    src: url('Exo-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Exo-LightItalic.woff2') format('woff2'),
+        url('Exo-LightItalic.woff') format('woff'),
+        url('Exo-LightItalic.ttf') format('truetype'),
+        url('Exo-LightItalic.svg#Exo-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+

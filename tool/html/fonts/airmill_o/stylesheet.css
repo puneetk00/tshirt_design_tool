@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Air Millhouse Outline';
+    src: url('AirMillhouseOutline.eot');
+    src: url('AirMillhouseOutline.eot?#iefix') format('embedded-opentype'),
+        url('AirMillhouseOutline.woff2') format('woff2'),
+        url('AirMillhouseOutline.woff') format('woff'),
+        url('AirMillhouseOutline.ttf') format('truetype'),
+        url('AirMillhouseOutline.svg#AirMillhouseOutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

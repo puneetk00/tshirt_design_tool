@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Service Light Condensed';
+    src: url('FederalServiceLightCondensedItalic.eot');
+    src: url('FederalServiceLightCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('FederalServiceLightCondensedItalic.woff2') format('woff2'),
+        url('FederalServiceLightCondensedItalic.woff') format('woff'),
+        url('FederalServiceLightCondensedItalic.ttf') format('truetype'),
+        url('FederalServiceLightCondensedItalic.svg#FederalServiceLightCondensedItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+

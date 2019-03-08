@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Escort Expanded';
+    src: url('FederalEscortExpanded.eot');
+    src: url('FederalEscortExpanded.eot?#iefix') format('embedded-opentype'),
+        url('FederalEscortExpanded.woff2') format('woff2'),
+        url('FederalEscortExpanded.woff') format('woff'),
+        url('FederalEscortExpanded.ttf') format('truetype'),
+        url('FederalEscortExpanded.svg#FederalEscortExpanded') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

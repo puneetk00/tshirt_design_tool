@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Future Forces Laser';
+    src: url('FutureForcesLaser.eot');
+    src: url('FutureForcesLaser.eot?#iefix') format('embedded-opentype'),
+        url('FutureForcesLaser.woff2') format('woff2'),
+        url('FutureForcesLaser.woff') format('woff'),
+        url('FutureForcesLaser.ttf') format('truetype'),
+        url('FutureForcesLaser.svg#FutureForcesLaser') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

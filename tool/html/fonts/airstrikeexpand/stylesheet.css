@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airstrike Expanded';
+    src: url('AirstrikeExpanded.eot');
+    src: url('AirstrikeExpanded.eot?#iefix') format('embedded-opentype'),
+        url('AirstrikeExpanded.woff2') format('woff2'),
+        url('AirstrikeExpanded.woff') format('woff'),
+        url('AirstrikeExpanded.ttf') format('truetype'),
+        url('AirstrikeExpanded.svg#AirstrikeExpanded') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Allana';
+    src: url('Allana-Regular.eot');
+    src: url('Allana-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Allana-Regular.woff2') format('woff2'),
+        url('Allana-Regular.woff') format('woff'),
+        url('Allana-Regular.ttf') format('truetype'),
+        url('Allana-Regular.svg#Allana-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

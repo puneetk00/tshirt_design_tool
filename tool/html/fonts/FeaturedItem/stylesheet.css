@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Featured Item';
+    src: url('FeaturedItem.eot');
+    src: url('FeaturedItem.eot?#iefix') format('embedded-opentype'),
+        url('FeaturedItem.woff2') format('woff2'),
+        url('FeaturedItem.woff') format('woff'),
+        url('FeaturedItem.ttf') format('truetype'),
+        url('FeaturedItem.svg#FeaturedItem') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

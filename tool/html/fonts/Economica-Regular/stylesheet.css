@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Economica';
+    src: url('Economica-Regular.eot');
+    src: url('Economica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Economica-Regular.woff2') format('woff2'),
+        url('Economica-Regular.woff') format('woff'),
+        url('Economica-Regular.ttf') format('truetype'),
+        url('Economica-Regular.svg#Economica-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

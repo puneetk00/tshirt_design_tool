@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airstrike Bullet';
+    src: url('AirstrikeBullet.eot');
+    src: url('AirstrikeBullet.eot?#iefix') format('embedded-opentype'),
+        url('AirstrikeBullet.woff2') format('woff2'),
+        url('AirstrikeBullet.woff') format('woff'),
+        url('AirstrikeBullet.ttf') format('truetype'),
+        url('AirstrikeBullet.svg#AirstrikeBullet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

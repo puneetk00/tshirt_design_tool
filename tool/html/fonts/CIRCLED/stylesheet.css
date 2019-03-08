@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Circled';
+    src: url('Circled.eot');
+    src: url('Circled.eot?#iefix') format('embedded-opentype'),
+        url('Circled.woff2') format('woff2'),
+        url('Circled.woff') format('woff'),
+        url('Circled.ttf') format('truetype'),
+        url('Circled.svg#Circled') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

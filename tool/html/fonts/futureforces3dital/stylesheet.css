@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Future Forces 3D';
+    src: url('FutureForces3DItalic.eot');
+    src: url('FutureForces3DItalic.eot?#iefix') format('embedded-opentype'),
+        url('FutureForces3DItalic.woff2') format('woff2'),
+        url('FutureForces3DItalic.woff') format('woff'),
+        url('FutureForces3DItalic.ttf') format('truetype'),
+        url('FutureForces3DItalic.svg#FutureForces3DItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

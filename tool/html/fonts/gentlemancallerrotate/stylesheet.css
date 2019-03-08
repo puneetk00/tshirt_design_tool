@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gentleman Caller Rotated';
+    src: url('GentlemanCallerRotated.eot');
+    src: url('GentlemanCallerRotated.eot?#iefix') format('embedded-opentype'),
+        url('GentlemanCallerRotated.woff2') format('woff2'),
+        url('GentlemanCallerRotated.woff') format('woff'),
+        url('GentlemanCallerRotated.ttf') format('truetype'),
+        url('GentlemanCallerRotated.svg#GentlemanCallerRotated') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

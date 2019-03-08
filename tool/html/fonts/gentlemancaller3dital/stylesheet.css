@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gentleman Caller 3D';
+    src: url('GentlemanCaller3DItalic.eot');
+    src: url('GentlemanCaller3DItalic.eot?#iefix') format('embedded-opentype'),
+        url('GentlemanCaller3DItalic.woff2') format('woff2'),
+        url('GentlemanCaller3DItalic.woff') format('woff'),
+        url('GentlemanCaller3DItalic.ttf') format('truetype'),
+        url('GentlemanCaller3DItalic.svg#GentlemanCaller3DItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gentleman Caller';
+    src: url('GentlemanCaller.eot');
+    src: url('GentlemanCaller.eot?#iefix') format('embedded-opentype'),
+        url('GentlemanCaller.woff2') format('woff2'),
+        url('GentlemanCaller.woff') format('woff'),
+        url('GentlemanCaller.ttf') format('truetype'),
+        url('GentlemanCaller.svg#GentlemanCaller') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

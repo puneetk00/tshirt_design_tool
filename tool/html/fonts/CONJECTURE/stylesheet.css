@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'CONJECTURE';
+    src: url('CONJECTURE.eot');
+    src: url('CONJECTURE.eot?#iefix') format('embedded-opentype'),
+        url('CONJECTURE.woff2') format('woff2'),
+        url('CONJECTURE.woff') format('woff'),
+        url('CONJECTURE.ttf') format('truetype'),
+        url('CONJECTURE.svg#CONJECTURE') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

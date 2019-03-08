@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Ballade Contour';
+    src: url('BalladeContour.eot');
+    src: url('BalladeContour.eot?#iefix') format('embedded-opentype'),
+        url('BalladeContour.woff2') format('woff2'),
+        url('BalladeContour.woff') format('woff'),
+        url('BalladeContour.ttf') format('truetype'),
+        url('BalladeContour.svg#BalladeContour') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

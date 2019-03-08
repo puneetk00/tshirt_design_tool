@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bobcaygeon Plain BRK';
+    src: url('BobcaygeonPlainBRK.eot');
+    src: url('BobcaygeonPlainBRK.eot?#iefix') format('embedded-opentype'),
+        url('BobcaygeonPlainBRK.woff2') format('woff2'),
+        url('BobcaygeonPlainBRK.woff') format('woff'),
+        url('BobcaygeonPlainBRK.ttf') format('truetype'),
+        url('BobcaygeonPlainBRK.svg#BobcaygeonPlainBRK') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

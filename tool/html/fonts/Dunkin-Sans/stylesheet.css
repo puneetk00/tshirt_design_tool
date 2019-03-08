@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Dunkin Sans';
+    src: url('DunkinSans.eot');
+    src: url('DunkinSans.eot?#iefix') format('embedded-opentype'),
+        url('DunkinSans.woff2') format('woff2'),
+        url('DunkinSans.woff') format('woff'),
+        url('DunkinSans.ttf') format('truetype'),
+        url('DunkinSans.svg#DunkinSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airstrike Gradient';
+    src: url('AirstrikeGradient.eot');
+    src: url('AirstrikeGradient.eot?#iefix') format('embedded-opentype'),
+        url('AirstrikeGradient.woff2') format('woff2'),
+        url('AirstrikeGradient.woff') format('woff'),
+        url('AirstrikeGradient.ttf') format('truetype'),
+        url('AirstrikeGradient.svg#AirstrikeGradient') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

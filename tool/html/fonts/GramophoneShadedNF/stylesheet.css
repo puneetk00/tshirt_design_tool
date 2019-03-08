@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gramophone Shaded NF';
+    src: url('GramophoneShadedNF.eot');
+    src: url('GramophoneShadedNF.eot?#iefix') format('embedded-opentype'),
+        url('GramophoneShadedNF.woff2') format('woff2'),
+        url('GramophoneShadedNF.woff') format('woff'),
+        url('GramophoneShadedNF.ttf') format('truetype'),
+        url('GramophoneShadedNF.svg#GramophoneShadedNF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

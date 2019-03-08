@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'English Towne';
+    src: url('EnglishTowne-Medium.eot');
+    src: url('EnglishTowne-Medium.eot?#iefix') format('embedded-opentype'),
+        url('EnglishTowne-Medium.woff2') format('woff2'),
+        url('EnglishTowne-Medium.woff') format('woff'),
+        url('EnglishTowne-Medium.ttf') format('truetype'),
+        url('EnglishTowne-Medium.svg#EnglishTowne-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

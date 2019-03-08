@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'CorelDraw';
+    src: url('CorelDraw.eot');
+    src: url('CorelDraw.eot?#iefix') format('embedded-opentype'),
+        url('CorelDraw.woff2') format('woff2'),
+        url('CorelDraw.woff') format('woff'),
+        url('CorelDraw.ttf') format('truetype'),
+        url('CorelDraw.svg#CorelDraw') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

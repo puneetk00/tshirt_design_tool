@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Burger Joint JL';
+    src: url('BurgerJointJL.eot');
+    src: url('BurgerJointJL.eot?#iefix') format('embedded-opentype'),
+        url('BurgerJointJL.woff2') format('woff2'),
+        url('BurgerJointJL.woff') format('woff'),
+        url('BurgerJointJL.ttf') format('truetype'),
+        url('BurgerJointJL.svg#BurgerJointJL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

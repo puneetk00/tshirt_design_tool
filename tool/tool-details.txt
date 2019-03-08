@@ -1,0 +1,54 @@
+﻿DESIGN LAB
+The design lab looks good. Please adjust:
+1- Add a Circle "Change product" under "Add Notes". When they click that it should bring them back to the category they were in, plus also with a way for them to go to the main category page.
+2- For the Change product at the bottom, please make it more visible, perhaps with color.
+3- Add a Start Over link
+4- Take out "Order Options" & Buy Now, replace it with  $ YOUR COST
+5- When they click on $ YOUR COST, the page should open to add quantity;
+6- We need to add logo size restriction, so when they play around with lettering and logos, it shows the width and height. I will send you the specs for those sizes. They are different for embroidery verse screen printing, as well as the product category; tees, polos, caps, etc.
+7- I have someone working on the screen-printing fonts to offer for the text. I’ve attached an example of what she’s doing. She will separate them by category; script, collegiate, etc. Is this an acceptable format?
+
+1-I think I understand what you are asking. Let's change the top navigation to only have two main ones at the top and one in the middle of the page:
+
+a-Select Your Product – this will take them to the products. Once they choose a product it will give them the design tool.
+
+b- START DESIGNING-and let us to us do our magic - see the attached design to use for the layout. This will take them to the lab where they can still choose products: https://www.customink.com/ndx/#/
+
+c- Towards the middle of the page where is reads “Start Designing” should take them to the lab. Once in the lab, they can choose a product. See:  https://www.customink.com/ndx/#/
+
+2-I'd like the 4 banners attached.
+
+3-As for the design lab tool, I want to be careful not to completely copy CustomInk.com. Here are some other design labs to reference. Please come up with a mixture of them so mine is a little different then theirs. I want all the same features, just moved around a bit and maybe different icons designs.
+
+a-https://www.customink.com/ndx/#/
+
+b-https://www.whooptee.com/designer
+
+c-https://hatstoreworld.com/custom-made/
+
+d-https://teelab.com/design/
+
+e-https://www.customteesnow.com/vectra/design_full.php
+
+
+4-Regarding the homepage layout.
+
+Please REMOVE the added link "Retrieve your design & Place a re-order". That should only be seen by the customer when they click on their "Account". Ok please see the attached photo of what it should look     like. Please do not add the fundraiser portion.
+
+Change the wording to read:
+
+a-Fetch Your Saved Design
+
+b-Loved Your Last Order- Reorder It Now
+
+For the it should read "bottom footer it should show as:
+
+Fetch Your Design & Place A Reorder, with each taking them to the same account page. Please what it should look like-see attached. Please only add the first two. Change the wording to read:
+
+a-Fetch Your Saved Design
+
+b-Loved Your Last Order- Reorder It Now
+
+http://synapse.asia/10492_Joi/tool/html/tool.html
+
+http://jsfiddle.net/NHs8t/

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Atiba';
+    src: url('Atiba-Regular.eot');
+    src: url('Atiba-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Atiba-Regular.woff2') format('woff2'),
+        url('Atiba-Regular.woff') format('woff'),
+        url('Atiba-Regular.ttf') format('truetype'),
+        url('Atiba-Regular.svg#Atiba-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

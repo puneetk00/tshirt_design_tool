@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Future Forces Title';
+    src: url('FutureForcesTitle.eot');
+    src: url('FutureForcesTitle.eot?#iefix') format('embedded-opentype'),
+        url('FutureForcesTitle.woff2') format('woff2'),
+        url('FutureForcesTitle.woff') format('woff'),
+        url('FutureForcesTitle.ttf') format('truetype'),
+        url('FutureForcesTitle.svg#FutureForcesTitle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Grand National';
+    src: url('GrandNationalItalic.eot');
+    src: url('GrandNationalItalic.eot?#iefix') format('embedded-opentype'),
+        url('GrandNationalItalic.woff2') format('woff2'),
+        url('GrandNationalItalic.woff') format('woff'),
+        url('GrandNationalItalic.ttf') format('truetype'),
+        url('GrandNationalItalic.svg#GrandNationalItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Harrington';
+    src: url('Harrington.eot');
+    src: url('Harrington.eot?#iefix') format('embedded-opentype'),
+        url('Harrington.woff2') format('woff2'),
+        url('Harrington.woff') format('woff'),
+        url('Harrington.ttf') format('truetype'),
+        url('Harrington.svg#Harrington') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

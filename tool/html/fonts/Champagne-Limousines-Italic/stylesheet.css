@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Champagne & Limousines';
+    src: url('ChampagneLimousines-Italic.eot');
+    src: url('ChampagneLimousines-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ChampagneLimousines-Italic.woff2') format('woff2'),
+        url('ChampagneLimousines-Italic.woff') format('woff'),
+        url('ChampagneLimousines-Italic.ttf') format('truetype'),
+        url('ChampagneLimousines-Italic.svg#Champagne&Limousines-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

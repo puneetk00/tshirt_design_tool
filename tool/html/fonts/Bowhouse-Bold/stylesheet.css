@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bowhouse';
+    src: url('Bowhouse-Bold.eot');
+    src: url('Bowhouse-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Bowhouse-Bold.woff2') format('woff2'),
+        url('Bowhouse-Bold.woff') format('woff'),
+        url('Bowhouse-Bold.ttf') format('truetype'),
+        url('Bowhouse-Bold.svg#Bowhouse-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'GatsbyFLF';
+    src: url('GatsbyFLF-Italic.eot');
+    src: url('GatsbyFLF-Italic.eot?#iefix') format('embedded-opentype'),
+        url('GatsbyFLF-Italic.woff2') format('woff2'),
+        url('GatsbyFLF-Italic.woff') format('woff'),
+        url('GatsbyFLF-Italic.ttf') format('truetype'),
+        url('GatsbyFLF-Italic.svg#GatsbyFLF-Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+

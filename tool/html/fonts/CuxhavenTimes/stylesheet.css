@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'CuxhavenTimes';
+    src: url('CuxhavenTimes.eot');
+    src: url('CuxhavenTimes.eot?#iefix') format('embedded-opentype'),
+        url('CuxhavenTimes.woff2') format('woff2'),
+        url('CuxhavenTimes.woff') format('woff'),
+        url('CuxhavenTimes.ttf') format('truetype'),
+        url('CuxhavenTimes.svg#CuxhavenTimes') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

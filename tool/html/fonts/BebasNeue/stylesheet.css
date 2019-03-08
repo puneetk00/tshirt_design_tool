@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue.eot');
+    src: url('BebasNeue.eot?#iefix') format('embedded-opentype'),
+        url('BebasNeue.woff2') format('woff2'),
+        url('BebasNeue.woff') format('woff'),
+        url('BebasNeue.ttf') format('truetype'),
+        url('BebasNeue.svg#BebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

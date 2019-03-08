@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Future Forces';
+    src: url('FutureForcesItalic.eot');
+    src: url('FutureForcesItalic.eot?#iefix') format('embedded-opentype'),
+        url('FutureForcesItalic.woff2') format('woff2'),
+        url('FutureForcesItalic.woff') format('woff'),
+        url('FutureForcesItalic.ttf') format('truetype'),
+        url('FutureForcesItalic.svg#FutureForcesItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

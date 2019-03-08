@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Collins OE Demo';
+    src: url('CollinsOEDemo.eot');
+    src: url('CollinsOEDemo.eot?#iefix') format('embedded-opentype'),
+        url('CollinsOEDemo.woff2') format('woff2'),
+        url('CollinsOEDemo.woff') format('woff'),
+        url('CollinsOEDemo.ttf') format('truetype'),
+        url('CollinsOEDemo.svg#CollinsOEDemo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

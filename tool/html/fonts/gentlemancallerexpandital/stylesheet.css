@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gentleman Caller Expanded';
+    src: url('GentlemanCallerExpandedItalic.eot');
+    src: url('GentlemanCallerExpandedItalic.eot?#iefix') format('embedded-opentype'),
+        url('GentlemanCallerExpandedItalic.woff2') format('woff2'),
+        url('GentlemanCallerExpandedItalic.woff') format('woff'),
+        url('GentlemanCallerExpandedItalic.ttf') format('truetype'),
+        url('GentlemanCallerExpandedItalic.svg#GentlemanCallerExpandedItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

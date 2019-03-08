@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bellota';
+    src: url('Bellota-LightItalic.eot');
+    src: url('Bellota-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Bellota-LightItalic.woff2') format('woff2'),
+        url('Bellota-LightItalic.woff') format('woff'),
+        url('Bellota-LightItalic.ttf') format('truetype'),
+        url('Bellota-LightItalic.svg#Bellota-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+

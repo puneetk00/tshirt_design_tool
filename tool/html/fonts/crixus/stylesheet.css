@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Crixus';
+    src: url('Crixus.eot');
+    src: url('Crixus.eot?#iefix') format('embedded-opentype'),
+        url('Crixus.woff2') format('woff2'),
+        url('Crixus.woff') format('woff'),
+        url('Crixus.ttf') format('truetype'),
+        url('Crixus.svg#Crixus') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

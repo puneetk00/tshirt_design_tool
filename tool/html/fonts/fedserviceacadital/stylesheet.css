@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Service Academy';
+    src: url('FederalServiceAcademyItalic.eot');
+    src: url('FederalServiceAcademyItalic.eot?#iefix') format('embedded-opentype'),
+        url('FederalServiceAcademyItalic.woff2') format('woff2'),
+        url('FederalServiceAcademyItalic.woff') format('woff'),
+        url('FederalServiceAcademyItalic.ttf') format('truetype'),
+        url('FederalServiceAcademyItalic.svg#FederalServiceAcademyItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

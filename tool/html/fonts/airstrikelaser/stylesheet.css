@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airstrike Laser';
+    src: url('AirstrikeLaser.eot');
+    src: url('AirstrikeLaser.eot?#iefix') format('embedded-opentype'),
+        url('AirstrikeLaser.woff2') format('woff2'),
+        url('AirstrikeLaser.woff') format('woff'),
+        url('AirstrikeLaser.ttf') format('truetype'),
+        url('AirstrikeLaser.svg#AirstrikeLaser') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

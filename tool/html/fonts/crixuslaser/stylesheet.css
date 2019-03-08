@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Crixus Laser';
+    src: url('CrixusLaser.eot');
+    src: url('CrixusLaser.eot?#iefix') format('embedded-opentype'),
+        url('CrixusLaser.woff2') format('woff2'),
+        url('CrixusLaser.woff') format('woff'),
+        url('CrixusLaser.ttf') format('truetype'),
+        url('CrixusLaser.svg#CrixusLaser') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

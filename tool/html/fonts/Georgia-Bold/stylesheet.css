@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia-Bold.eot');
+    src: url('Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Georgia-Bold.woff2') format('woff2'),
+        url('Georgia-Bold.woff') format('woff'),
+        url('Georgia-Bold.ttf') format('truetype'),
+        url('Georgia-Bold.svg#Georgia-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

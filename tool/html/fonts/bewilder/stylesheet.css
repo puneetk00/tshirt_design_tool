@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bewilder BRK';
+    src: url('BewilderBRK.eot');
+    src: url('BewilderBRK.eot?#iefix') format('embedded-opentype'),
+        url('BewilderBRK.woff2') format('woff2'),
+        url('BewilderBRK.woff') format('woff'),
+        url('BewilderBRK.ttf') format('truetype'),
+        url('BewilderBRK.svg#BewilderBRK') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Grand National Laser';
+    src: url('GrandNationalLaserItalic.eot');
+    src: url('GrandNationalLaserItalic.eot?#iefix') format('embedded-opentype'),
+        url('GrandNationalLaserItalic.woff2') format('woff2'),
+        url('GrandNationalLaserItalic.woff') format('woff'),
+        url('GrandNationalLaserItalic.ttf') format('truetype'),
+        url('GrandNationalLaserItalic.svg#GrandNationalLaserItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

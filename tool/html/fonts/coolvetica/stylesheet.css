@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('Coolvetica-Regular.eot');
+    src: url('Coolvetica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Coolvetica-Regular.woff2') format('woff2'),
+        url('Coolvetica-Regular.woff') format('woff'),
+        url('Coolvetica-Regular.ttf') format('truetype'),
+        url('Coolvetica-Regular.svg#Coolvetica-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

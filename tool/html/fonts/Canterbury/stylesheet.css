@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Canterbury';
+    src: url('Canterbury-Regular.eot');
+    src: url('Canterbury-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Canterbury-Regular.woff2') format('woff2'),
+        url('Canterbury-Regular.woff') format('woff'),
+        url('Canterbury-Regular.ttf') format('truetype'),
+        url('Canterbury-Regular.svg#Canterbury-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

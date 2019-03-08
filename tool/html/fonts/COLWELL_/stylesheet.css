@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Colwell';
+    src: url('Colwell.eot');
+    src: url('Colwell.eot?#iefix') format('embedded-opentype'),
+        url('Colwell.woff2') format('woff2'),
+        url('Colwell.woff') format('woff'),
+        url('Colwell.ttf') format('truetype'),
+        url('Colwell.svg#Colwell') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

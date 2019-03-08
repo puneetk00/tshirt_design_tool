@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'AlwaysHere';
+    src: url('AlwaysHere.eot');
+    src: url('AlwaysHere.eot?#iefix') format('embedded-opentype'),
+        url('AlwaysHere.woff2') format('woff2'),
+        url('AlwaysHere.woff') format('woff'),
+        url('AlwaysHere.ttf') format('truetype'),
+        url('AlwaysHere.svg#AlwaysHere') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Breamcatcher';
+    src: url('Breamcatcher-Regular.eot');
+    src: url('Breamcatcher-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Breamcatcher-Regular.woff2') format('woff2'),
+        url('Breamcatcher-Regular.woff') format('woff'),
+        url('Breamcatcher-Regular.ttf') format('truetype'),
+        url('Breamcatcher-Regular.svg#Breamcatcher-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

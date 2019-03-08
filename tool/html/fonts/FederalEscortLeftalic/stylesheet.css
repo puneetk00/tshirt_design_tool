@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Escort Leftalic';
+    src: url('FederalEscortLeftalic.eot');
+    src: url('FederalEscortLeftalic.eot?#iefix') format('embedded-opentype'),
+        url('FederalEscortLeftalic.woff2') format('woff2'),
+        url('FederalEscortLeftalic.woff') format('woff'),
+        url('FederalEscortLeftalic.ttf') format('truetype'),
+        url('FederalEscortLeftalic.svg#FederalEscortLeftalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Future Forces Condensed';
+    src: url('FutureForcesCondensed.eot');
+    src: url('FutureForcesCondensed.eot?#iefix') format('embedded-opentype'),
+        url('FutureForcesCondensed.woff2') format('woff2'),
+        url('FutureForcesCondensed.woff') format('woff'),
+        url('FutureForcesCondensed.ttf') format('truetype'),
+        url('FutureForcesCondensed.svg#FutureForcesCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

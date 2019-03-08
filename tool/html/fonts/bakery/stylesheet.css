@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bakery';
+    src: url('Bakery.eot');
+    src: url('Bakery.eot?#iefix') format('embedded-opentype'),
+        url('Bakery.woff2') format('woff2'),
+        url('Bakery.woff') format('woff'),
+        url('Bakery.ttf') format('truetype'),
+        url('Bakery.svg#Bakery') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

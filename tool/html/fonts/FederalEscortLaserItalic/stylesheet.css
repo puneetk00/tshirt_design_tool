@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Escort Laser';
+    src: url('FederalEscortLaserItalic.eot');
+    src: url('FederalEscortLaserItalic.eot?#iefix') format('embedded-opentype'),
+        url('FederalEscortLaserItalic.woff2') format('woff2'),
+        url('FederalEscortLaserItalic.woff') format('woff'),
+        url('FederalEscortLaserItalic.ttf') format('truetype'),
+        url('FederalEscortLaserItalic.svg#FederalEscortLaserItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

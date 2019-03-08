@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gruppo';
+    src: url('Gruppo.eot');
+    src: url('Gruppo.eot?#iefix') format('embedded-opentype'),
+        url('Gruppo.woff2') format('woff2'),
+        url('Gruppo.woff') format('woff'),
+        url('Gruppo.ttf') format('truetype'),
+        url('Gruppo.svg#Gruppo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

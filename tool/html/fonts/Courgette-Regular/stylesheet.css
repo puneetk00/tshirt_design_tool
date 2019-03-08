@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Courgette';
+    src: url('Courgette-Regular.eot');
+    src: url('Courgette-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Courgette-Regular.woff2') format('woff2'),
+        url('Courgette-Regular.woff') format('woff'),
+        url('Courgette-Regular.ttf') format('truetype'),
+        url('Courgette-Regular.svg#Courgette-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

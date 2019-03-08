@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Circus Ornate';
+    src: url('CircusOrnate.eot');
+    src: url('CircusOrnate.eot?#iefix') format('embedded-opentype'),
+        url('CircusOrnate.woff2') format('woff2'),
+        url('CircusOrnate.woff') format('woff'),
+        url('CircusOrnate.ttf') format('truetype'),
+        url('CircusOrnate.svg#CircusOrnate') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

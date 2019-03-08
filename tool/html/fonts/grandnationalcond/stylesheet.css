@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Grand National Condensed';
+    src: url('GrandNationalCondensed.eot');
+    src: url('GrandNationalCondensed.eot?#iefix') format('embedded-opentype'),
+        url('GrandNationalCondensed.woff2') format('woff2'),
+        url('GrandNationalCondensed.woff') format('woff'),
+        url('GrandNationalCondensed.ttf') format('truetype'),
+        url('GrandNationalCondensed.svg#GrandNationalCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

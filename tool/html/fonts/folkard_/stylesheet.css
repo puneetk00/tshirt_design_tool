@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Folkard';
+    src: url('Folkard.eot');
+    src: url('Folkard.eot?#iefix') format('embedded-opentype'),
+        url('Folkard.woff2') format('woff2'),
+        url('Folkard.woff') format('woff'),
+        url('Folkard.ttf') format('truetype'),
+        url('Folkard.svg#Folkard') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

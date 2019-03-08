@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Crixus Academy';
+    src: url('CrixusAcademy.eot');
+    src: url('CrixusAcademy.eot?#iefix') format('embedded-opentype'),
+        url('CrixusAcademy.woff2') format('woff2'),
+        url('CrixusAcademy.woff') format('woff'),
+        url('CrixusAcademy.ttf') format('truetype'),
+        url('CrixusAcademy.svg#CrixusAcademy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

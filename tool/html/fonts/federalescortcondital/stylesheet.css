@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Escort Condensed';
+    src: url('FederalEscortCondensedItalic.eot');
+    src: url('FederalEscortCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('FederalEscortCondensedItalic.woff2') format('woff2'),
+        url('FederalEscortCondensedItalic.woff') format('woff'),
+        url('FederalEscortCondensedItalic.ttf') format('truetype'),
+        url('FederalEscortCondensedItalic.svg#FederalEscortCondensedItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

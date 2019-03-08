@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Air Americana';
+    src: url('AirAmericana.eot');
+    src: url('AirAmericana.eot?#iefix') format('embedded-opentype'),
+        url('AirAmericana.woff2') format('woff2'),
+        url('AirAmericana.woff') format('woff'),
+        url('AirAmericana.ttf') format('truetype'),
+        url('AirAmericana.svg#AirAmericana') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

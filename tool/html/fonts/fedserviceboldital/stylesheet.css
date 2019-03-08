@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Service';
+    src: url('FederalServiceBoldItalic.eot');
+    src: url('FederalServiceBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('FederalServiceBoldItalic.woff2') format('woff2'),
+        url('FederalServiceBoldItalic.woff') format('woff'),
+        url('FederalServiceBoldItalic.ttf') format('truetype'),
+        url('FederalServiceBoldItalic.svg#FederalServiceBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+

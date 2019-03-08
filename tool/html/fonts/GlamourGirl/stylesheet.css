@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Glamourgirl';
+    src: url('Glamourgirl.eot');
+    src: url('Glamourgirl.eot?#iefix') format('embedded-opentype'),
+        url('Glamourgirl.woff2') format('woff2'),
+        url('Glamourgirl.woff') format('woff'),
+        url('Glamourgirl.ttf') format('truetype'),
+        url('Glamourgirl.svg#Glamourgirl') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

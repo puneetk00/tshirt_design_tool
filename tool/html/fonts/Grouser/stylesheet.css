@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Grouser';
+    src: url('Grouser.eot');
+    src: url('Grouser.eot?#iefix') format('embedded-opentype'),
+        url('Grouser.woff2') format('woff2'),
+        url('Grouser.woff') format('woff'),
+        url('Grouser.ttf') format('truetype'),
+        url('Grouser.svg#Grouser') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

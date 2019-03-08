@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bridgnorth_Blocked';
+    src: url('Bridgnorth_Blocked.eot');
+    src: url('Bridgnorth_Blocked.eot?#iefix') format('embedded-opentype'),
+        url('Bridgnorth_Blocked.woff2') format('woff2'),
+        url('Bridgnorth_Blocked.woff') format('woff'),
+        url('Bridgnorth_Blocked.ttf') format('truetype'),
+        url('Bridgnorth_Blocked.svg#Bridgnorth_Blocked') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

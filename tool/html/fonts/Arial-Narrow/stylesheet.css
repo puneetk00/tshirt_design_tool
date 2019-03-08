@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('ArialNarrow.eot');
+    src: url('ArialNarrow.eot?#iefix') format('embedded-opentype'),
+        url('ArialNarrow.woff2') format('woff2'),
+        url('ArialNarrow.woff') format('woff'),
+        url('ArialNarrow.ttf') format('truetype'),
+        url('ArialNarrow.svg#ArialNarrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

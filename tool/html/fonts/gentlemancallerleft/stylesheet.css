@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gentleman Caller Leftalic';
+    src: url('GentlemanCallerLeftalic.eot');
+    src: url('GentlemanCallerLeftalic.eot?#iefix') format('embedded-opentype'),
+        url('GentlemanCallerLeftalic.woff2') format('woff2'),
+        url('GentlemanCallerLeftalic.woff') format('woff'),
+        url('GentlemanCallerLeftalic.ttf') format('truetype'),
+        url('GentlemanCallerLeftalic.svg#GentlemanCallerLeftalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

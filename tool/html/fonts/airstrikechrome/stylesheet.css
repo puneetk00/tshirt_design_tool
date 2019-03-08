@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airstrike Chrome';
+    src: url('AirstrikeChrome.eot');
+    src: url('AirstrikeChrome.eot?#iefix') format('embedded-opentype'),
+        url('AirstrikeChrome.woff2') format('woff2'),
+        url('AirstrikeChrome.woff') format('woff'),
+        url('AirstrikeChrome.ttf') format('truetype'),
+        url('AirstrikeChrome.svg#AirstrikeChrome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

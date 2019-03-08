@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Croissant One';
+    src: url('CroissantOne-Regular.eot');
+    src: url('CroissantOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CroissantOne-Regular.woff2') format('woff2'),
+        url('CroissantOne-Regular.woff') format('woff'),
+        url('CroissantOne-Regular.ttf') format('truetype'),
+        url('CroissantOne-Regular.svg#CroissantOne-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

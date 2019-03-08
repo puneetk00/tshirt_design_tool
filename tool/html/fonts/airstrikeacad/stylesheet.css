@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airstrike Academy';
+    src: url('AirstrikeAcademy.eot');
+    src: url('AirstrikeAcademy.eot?#iefix') format('embedded-opentype'),
+        url('AirstrikeAcademy.woff2') format('woff2'),
+        url('AirstrikeAcademy.woff') format('woff'),
+        url('AirstrikeAcademy.ttf') format('truetype'),
+        url('AirstrikeAcademy.svg#AirstrikeAcademy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

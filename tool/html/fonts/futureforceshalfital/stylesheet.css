@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Future Forces Halftone';
+    src: url('FutureForcesHalftoneItalic.eot');
+    src: url('FutureForcesHalftoneItalic.eot?#iefix') format('embedded-opentype'),
+        url('FutureForcesHalftoneItalic.woff2') format('woff2'),
+        url('FutureForcesHalftoneItalic.woff') format('woff'),
+        url('FutureForcesHalftoneItalic.ttf') format('truetype'),
+        url('FutureForcesHalftoneItalic.svg#FutureForcesHalftoneItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

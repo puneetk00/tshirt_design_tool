@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Escort Halftone';
+    src: url('FederalEscortHalftone.eot');
+    src: url('FederalEscortHalftone.eot?#iefix') format('embedded-opentype'),
+        url('FederalEscortHalftone.woff2') format('woff2'),
+        url('FederalEscortHalftone.woff') format('woff'),
+        url('FederalEscortHalftone.ttf') format('truetype'),
+        url('FederalEscortHalftone.svg#FederalEscortHalftone') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

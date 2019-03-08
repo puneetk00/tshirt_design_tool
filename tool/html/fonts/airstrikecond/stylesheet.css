@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airstrike Condensed';
+    src: url('AirstrikeCondensed.eot');
+    src: url('AirstrikeCondensed.eot?#iefix') format('embedded-opentype'),
+        url('AirstrikeCondensed.woff2') format('woff2'),
+        url('AirstrikeCondensed.woff') format('woff'),
+        url('AirstrikeCondensed.ttf') format('truetype'),
+        url('AirstrikeCondensed.svg#AirstrikeCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

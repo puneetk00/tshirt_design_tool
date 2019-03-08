@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bridgnorth';
+    src: url('Bridgnorth-Bold.eot');
+    src: url('Bridgnorth-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Bridgnorth-Bold.woff2') format('woff2'),
+        url('Bridgnorth-Bold.woff') format('woff'),
+        url('Bridgnorth-Bold.ttf') format('truetype'),
+        url('Bridgnorth-Bold.svg#Bridgnorth-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

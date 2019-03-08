@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'GatsbyFLF';
+    src: url('GatsbyFLF-BoldItalic.eot');
+    src: url('GatsbyFLF-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GatsbyFLF-BoldItalic.woff2') format('woff2'),
+        url('GatsbyFLF-BoldItalic.woff') format('woff'),
+        url('GatsbyFLF-BoldItalic.ttf') format('truetype'),
+        url('GatsbyFLF-BoldItalic.svg#GatsbyFLF-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+

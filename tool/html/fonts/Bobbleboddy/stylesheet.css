@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'bubbleboddy';
+    src: url('bubbleboddy-Fat.eot');
+    src: url('bubbleboddy-Fat.eot?#iefix') format('embedded-opentype'),
+        url('bubbleboddy-Fat.woff2') format('woff2'),
+        url('bubbleboddy-Fat.woff') format('woff'),
+        url('bubbleboddy-Fat.ttf') format('truetype'),
+        url('bubbleboddy-Fat.svg#bubbleboddy-Fat') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+

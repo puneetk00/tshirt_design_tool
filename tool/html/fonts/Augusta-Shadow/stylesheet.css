@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Augusta Shadow';
+    src: url('Augusta-Shadow.eot');
+    src: url('Augusta-Shadow.eot?#iefix') format('embedded-opentype'),
+        url('Augusta-Shadow.woff2') format('woff2'),
+        url('Augusta-Shadow.woff') format('woff'),
+        url('Augusta-Shadow.ttf') format('truetype'),
+        url('Augusta-Shadow.svg#Augusta-Shadow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

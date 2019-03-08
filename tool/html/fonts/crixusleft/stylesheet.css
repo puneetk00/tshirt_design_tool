@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Crixus Leftalic';
+    src: url('CrixusLeftalic.eot');
+    src: url('CrixusLeftalic.eot?#iefix') format('embedded-opentype'),
+        url('CrixusLeftalic.woff2') format('woff2'),
+        url('CrixusLeftalic.woff') format('woff'),
+        url('CrixusLeftalic.ttf') format('truetype'),
+        url('CrixusLeftalic.svg#CrixusLeftalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+

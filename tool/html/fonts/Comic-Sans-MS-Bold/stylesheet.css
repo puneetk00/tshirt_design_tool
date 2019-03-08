@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('ComicSansMS-Bold.eot');
+    src: url('ComicSansMS-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ComicSansMS-Bold.woff2') format('woff2'),
+        url('ComicSansMS-Bold.woff') format('woff'),
+        url('ComicSansMS-Bold.ttf') format('truetype'),
+        url('ComicSansMS-Bold.svg#ComicSansMS-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

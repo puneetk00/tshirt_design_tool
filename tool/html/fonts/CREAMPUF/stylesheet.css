@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Creampuff';
+    src: url('Creampuff.eot');
+    src: url('Creampuff.eot?#iefix') format('embedded-opentype'),
+        url('Creampuff.woff2') format('woff2'),
+        url('Creampuff.woff') format('woff'),
+        url('Creampuff.ttf') format('truetype'),
+        url('Creampuff.svg#Creampuff') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

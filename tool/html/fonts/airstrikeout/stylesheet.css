@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Airstrike Outline';
+    src: url('AirstrikeOutline.eot');
+    src: url('AirstrikeOutline.eot?#iefix') format('embedded-opentype'),
+        url('AirstrikeOutline.woff2') format('woff2'),
+        url('AirstrikeOutline.woff') format('woff'),
+        url('AirstrikeOutline.ttf') format('truetype'),
+        url('AirstrikeOutline.svg#AirstrikeOutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

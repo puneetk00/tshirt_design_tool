@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gaban';
+    src: url('Gaban.eot');
+    src: url('Gaban.eot?#iefix') format('embedded-opentype'),
+        url('Gaban.woff2') format('woff2'),
+        url('Gaban.woff') format('woff'),
+        url('Gaban.ttf') format('truetype'),
+        url('Gaban.svg#Gaban') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

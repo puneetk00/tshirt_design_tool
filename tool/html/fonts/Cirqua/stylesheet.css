@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Cirqua';
+    src: url('Cirqua-Regular.eot');
+    src: url('Cirqua-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Cirqua-Regular.woff2') format('woff2'),
+        url('Cirqua-Regular.woff') format('woff'),
+        url('Cirqua-Regular.ttf') format('truetype'),
+        url('Cirqua-Regular.svg#Cirqua-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

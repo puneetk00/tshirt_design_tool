@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gist Rough Upr Exbold Two Demo';
+    src: url('GistRoughUprExboldTwoDemo.eot');
+    src: url('GistRoughUprExboldTwoDemo.eot?#iefix') format('embedded-opentype'),
+        url('GistRoughUprExboldTwoDemo.woff2') format('woff2'),
+        url('GistRoughUprExboldTwoDemo.woff') format('woff'),
+        url('GistRoughUprExboldTwoDemo.ttf') format('truetype'),
+        url('GistRoughUprExboldTwoDemo.svg#GistRoughUprExboldTwoDemo') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
